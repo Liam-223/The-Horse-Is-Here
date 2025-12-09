@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=20livPTfE_U
 # How To Set It Up
 ## 1. - Download the Project
 
-## 2. - Drop the Project wherever you want
+## 2. - Drop the Project wherever you want and unzip it
 
 ## 3. - Running it
 ### 3.1 
@@ -56,9 +56,10 @@ Now log out and back in (or reboot). Your wallpaper should start changing.
 # How To Configure It
 - Small Disclaimer: VS Code is not needed but it's nice to edit code
 - https://code.visualstudio.com/download
+
 - Change assets in "assets" to your liking
 
-Make sure to change the file names at the top of the script if you change the files (I am to stupid to make it look for them automaticly)
+Make sure to check if the file names at the of the script still match if you change the files (I am to stupid to make it look for them automaticly, but it automatically looks for the audios)
 ```sh
 $images = @(
     (Join-Path $assetsDir 'version1.png'),
