@@ -57,7 +57,7 @@ Now log out and back in (or reboot). Your wallpaper should start changing.
 - Small Disclaimer: VS Code is not needed but it's nice to edit code
 - https://code.visualstudio.com/download
 
-- Change assets in "assets" to your liking
+- Change assets in "assets" to your liking, you can copy over the premade themes (spring, summer, fall, winter)
 
 Make sure to check if the file names at the of the script still match if you change the files (I am to stupid to make it look for them automaticly, but it automatically looks for the audios)
 ```sh
@@ -79,9 +79,23 @@ $images = @(
 
 # Credits
 - Me (Liam)
-- That guy that made this really cool base wallpaper (i seriously use it on like EVERY device)
+- The original image creators
 
 
 
 
 - Any feedback is highly welcome!
+
+
+
+# Changelog
+## Version 1.0.0 (12.08.2025)
+- Release
+## Version 1.1.0 (12.09.2025)
+- minus 10db for all audios 
+- small code changes
+## Version 1.2.0 (12.28.2025)
+- Added premade spring, summer, fall and winter skins
+- minus 5db for all audios again
+- Added an "startAfter" time in the script
+- Other code changes

@@ -1,8 +1,9 @@
 # randomly switch between two wallpapers every 1–10 minutes (Windows 11, idk if it works for others)
 
-# 1–10 minutes (in seconds)
-$minTime = 60
-$maxTime = 601
+# 3-16 minutes (in seconds)
+$minTime = 180
+$maxTime = 960
+$startAfter = 5
 
 $scriptDir = Split-Path -Parent $PSCommandPath
 $assetsDir = Join-Path $scriptDir 'assets'
@@ -12,6 +13,12 @@ $images = @(
     (Join-Path $assetsDir 'version2.png'),
     (Join-Path $assetsDir 'version3.png')
 )
+
+$images = $images | Where-Object { Test-Path $_ }
+if ($images.Count -lt 2) {
+    throw "Need at least 2 existing images in '$assetsDir'. Found: $($images.Count)."
+}
+
 
 # ---- Wallpaper style ----
 Set-ItemProperty 'HKCU:\Control Panel\Desktop\' -Name WallpaperStyle -Value "10"
@@ -70,6 +77,8 @@ try {
 
 $previousImage = $initialWallpaper
 
+
+Start-Sleep -Seconds $startAfter
 while ($true) {
     # pick a random image different from the previous one
     do {
