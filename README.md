@@ -98,4 +98,8 @@ $images = @(
 - Added premade spring, summer, fall and winter skins
 - minus 5db for all audios again
 - Added an "startAfter" time in the script
+
 - Other code changes
+- 
+![cat2](https://github.com/user-attachments/assets/6de7cc90-f0b5-4d41-9b65-8b51cc97f37c)
+
