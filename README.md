@@ -21,16 +21,16 @@ https://www.youtube.com/watch?v=20livPTfE_U
 - Action -> Create Task
 - General tab:
     ```sh
-    -> Name = xyz
+    -> Name = XYZ 
     -> Check others how you like, doesn't matter
-    -> Click OK
+    -> Click 'OK'
     ```
 - Triggers tab: 
     ```sh
     -> Click New
     -> Begin the task: At log on
     -> Make sure your user is selected, or all if you want that
-    -> Click OK
+    -> Click 'OK'
     ```
 - Actions tab: 
     ```sh
@@ -39,9 +39,9 @@ https://www.youtube.com/watch?v=20livPTfE_U
     -> Program/script: powershell.exe (just type it in like that)
     -> Add arguments: -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "PUT THE PATH TO YOUR ps1 HERE" 
     (example: "C:\Users\TestUser\Documents\Wallpaper\randomWallpaper.ps1")
-    -> Click OK
+    -> Click 'OK'
     ```
-Finally click OK to save the task.
+Finally click 'OK' to save the task.
 Now log out and back in (or reboot). Your wallpaper should start changing.
 ### 3.2
 - Just go to the ps1 file and execute it via right click -> Run with Powershell
@@ -54,8 +54,7 @@ Now log out and back in (or reboot). Your wallpaper should start changing.
 
 
 # How To Configure It
-- Small Disclaimer: VS Code is not needed but it's nice to edit code
-- https://code.visualstudio.com/download
+- Small Disclaimer: [VSCode](https://code.visualstudio.com/download) is not needed but it's nice to edit code
 
 - Change assets in "assets" to your liking, you can copy over the premade themes (spring, summer, fall, winter in the presets file you can get from the releases on the right side)
 
@@ -83,7 +82,7 @@ $images = @(
 
 
 
-
+# Other
 - Any feedback is highly welcome!
 
 
