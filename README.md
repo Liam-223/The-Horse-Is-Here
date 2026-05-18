@@ -1,7 +1,7 @@
-# Changes your wallpaper every x amount of time
+# Changes your wallpaper every X amount of time
 
 # Disclaimer
-- I haven't tested it on any Windows version below Windows 11 25H2
+- I haven't tested it on any Windows version below (or above) Windows 11 25H2
 - So sorry if this is formatted weird :P
 - Sorry if it's explained weirdly, if you have any problems don't hesitate to ask me over my various socials
 
