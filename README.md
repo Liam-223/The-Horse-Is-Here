@@ -56,7 +56,7 @@ Now log out and back in (or reboot). Your wallpaper should start changing.
 # How To Configure It
 - Small Disclaimer: [VSCode](https://code.visualstudio.com/download) is not needed but it's nice to edit code
 
-- Change assets in "assets" to your liking, you can copy over the premade themes (spring, summer, fall, winter in the presets file you can get from the releases on the right side)
+- Change assets in "assets" to your liking, you can copy over the premade themes (spring, summer, fall, winter in the presets file **you can get from the releases on the right side**)
 
 Make sure to check if the file names at the of the script still match if you change the files (I am to stupid to make it look for them automaticly, but it automatically looks for the audios)
 ```sh
